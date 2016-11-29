@@ -1,4 +1,4 @@
-package com.zer.redis.chapter01;
+package com.zer.redis.chapter;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.ZParams;

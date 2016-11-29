@@ -1,6 +1,6 @@
 package com.zer.redis.test;
 
-import com.zer.redis.chapter01.Chapter01;
+import com.zer.redis.chapter.Chapter01;
 import org.junit.Test;
 
 /**
