@@ -18,6 +18,11 @@ public class Chapter03 {
     private static Jedis conn = new Jedis("192.168.11.81");
 
     @Test
+    public void stringTest3() {
+        conn.mset("k1", "v1", "k2", "v2");
+    }
+
+    @Test
     public void stringTest() { //当没有键key时运行
         System.out.println(conn.get("key")); //null
         System.out.println(conn.incr("key")); //1
